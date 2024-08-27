@@ -1,5 +1,5 @@
-import Hw0
+import Hw
 
-/-- info: "Hello, Math 587" -/
+/-- info: "hi" -/
 #guard_msgs in
-#eval hello
+#eval "hi"
