@@ -1,0 +1,8 @@
+import Lake
+open Lake DSL
+
+package hw where
+  testDriver := "batteries/test"
+
+require USCMath587 from git "https://github.com/USC-Fall-2024-Math-587/USCMath587"@"main"
+
