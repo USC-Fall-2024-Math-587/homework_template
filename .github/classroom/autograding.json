@@ -1,12 +1,22 @@
 {
     "tests": [
       {
-        "name": "Testing tests",
+        "name": "Checking the format of the submission",
         "setup": "",
-        "run": "HOME='/home/runner' lake test -- test1",
+        "run": "file --mime-type solutions.pdf",
         "input" : "",
-        "timeout": 100,
-        "points": 5
+        "output": "application/pdf",
+        "comparison": "included",
+        "timeout": 5,
+        "points": 1
+      },
+      {
+        "name": "Test 1",
+        "setup": "",
+        "run": "lake test -- test1",
+        "input" : "",
+        "timeout": 5,
+        "points": 1
       }
     ]
   }
