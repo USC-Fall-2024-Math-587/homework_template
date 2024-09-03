@@ -6,4 +6,5 @@ package Hw where
 
 require USCMath587 from git "https://github.com/USC-Fall-2024-Math-587/USCMath587"@"main"
 
+@[default_target]
 lean_lib Hw where
